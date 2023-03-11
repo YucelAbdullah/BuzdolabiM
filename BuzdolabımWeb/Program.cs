@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using NETCore.MailKit.Extensions;
 using NETCore.MailKit.Infrastructure.Internal;
+using Microsoft.EntityFrameworkCore.SqlServer;
+
 
 var builder = WebApplication.CreateBuilder(args);
 

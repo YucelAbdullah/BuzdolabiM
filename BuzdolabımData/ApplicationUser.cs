@@ -15,7 +15,5 @@ namespace BuzdolabımData
         public virtual ICollection<FrostItem> FrostItems { get; set; } = new HashSet<FrostItem>();
 
 
-
-
     }
 }
