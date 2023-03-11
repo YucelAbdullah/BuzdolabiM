@@ -12,8 +12,7 @@ namespace BuzdolabımData
         public Genders? Gender { get; set; }
         public DateTime? BirthDate { get; set; }
 
-
-
+        public virtual ICollection<FrostItem> FrostItems { get; set; } = new HashSet<FrostItem>();
 
 
 
